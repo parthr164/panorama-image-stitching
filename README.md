@@ -28,6 +28,12 @@ Once the best homography matrix is calculated, the warped image transformation o
 
 Here the two images, the original image and the warped image need to be stitched together. The algorithm first places the original image in the canvas, and then places pixels from the warped image only where the pixel value is 0 in the final image. This way a fully stitched image is obtained. 
 
+To try this yourself type this line in your command line:
+
+```
+python pano.py image_1.jpg image_2.jpg output.jpg
+```
+
 Here are some examples:
 
 Image 1           |  Image 2           | Stitched Image           
